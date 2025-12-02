@@ -30,9 +30,9 @@ git remote add origin 원격지주소
 
 #다른 repo에서 clone을 받아 나의 repo로 올리기
 #1. 커밋이력 그대로 가져가기
-git clone https://github.com/kimseonguk197/kafka-practice
-
+git clone 레포주소
 git remote set-url origin 레포주소  #원격지 주소변경
+git push origin main
 
 #2. 커밋이력 없이 가져가기
 #.git 폴더 삭제
