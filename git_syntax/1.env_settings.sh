@@ -35,10 +35,11 @@ git remote set-url origin 레포주소  #원격지 주소변경
 git push origin main
 
 #2. 커밋이력 없이 가져가기
+git clone 레포주소
 #.git 폴더 삭제
 git init
 git remote add origin 원격지 주소
-git chechout -b main    #main 브랜치 생성 및 변경
+git checkout -b main    #main 브랜치 생성 및 변경
 #git add, git commit, git push 작업 진행
 
 #.gitignore파일은 git 추적목록에서 제외 대상 나열
